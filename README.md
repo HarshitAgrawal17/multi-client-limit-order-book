@@ -70,7 +70,3 @@ python3 limit_order_book.py
 - A market sell stops early when the seller has no units left, the book is empty, or the best bid is the seller's own.
 - The tree is not self-balancing; a red-black or AVL tree would guarantee O(log N).
 - Everything is in memory; there is no persistence or concurrency.
-
-## Notes
-
-Written with AI assistance (Claude).
